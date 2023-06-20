@@ -33,5 +33,12 @@ def AutomatedDecoder(message):
     for key in range(0,26):
         decodeMessage(message,key)
 
+print("\t\t\t\t\tWelcome to Bruteforce-Caesar-Decoder  1.0.0.1")
+print("\t\t\t\t\tBruteforce based on Caesar-Ciphers 1.0.0.1/.0 and not hardened Caesar Cipher.")
+print("\t\t\t\t\tCreator XIICODE")
+print("\t\t\t\t\tSpecial Characters not supported in this version.?$#@!&*()-_+={[]}|/,.")
+print("\t\t\t\t\tOUTPUT IS IN LOWER CASE")
+print("\n\n\n")
+
 mess = input("Enter the message to perform automated Decoding : ")
 AutomatedDecoder(mess)
